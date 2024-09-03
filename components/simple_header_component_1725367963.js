@@ -86,7 +86,15 @@ INSTRUCTION: Summary: The header component is a nav bar on top of the page -- it
                             </a>
                         </li>
                     </ul>
-                </div>
+                    </ul>
+                    <div class="flex-1 flex justify-end items-center ml-4">
+                        <button
+                            id="submit-button"
+                            class="btn-sm transition duration-150 ease-in-out text-white bg-purple-700 hover:bg-purple-600 rounded-lg px-4 py-2 shadow-lg"
+                        >
+                            Submit
+                        </button>
+                    </div>
             </div>
         </nav>
     </header>
